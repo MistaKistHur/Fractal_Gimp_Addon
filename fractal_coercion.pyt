@@ -56,3 +56,16 @@ def fu_fractal_tools(seed, image, drawable, radius, params, threshold, arc, mapi
   
 register()
 main()
+
+
+# idea for secondary fractal function/plugin
+# Read rgba data from img max 100x100px then plug that data into variables 
+# & use it to create/generate a fractal based off that img, 
+
+# 2ndry mix 100px img with seed then populate 3d array.
+
+# 3rd pick three seeds, merge via algo then see the resulting recurrence.
+
+# 4th self inclusive recursion.
+
+# 5th Fractal, snake loop, with exit cmd.
