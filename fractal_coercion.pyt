@@ -23,6 +23,8 @@ def fu_fractal_tools(seed, image, drawable, radius, param, threshold, arc, mapi)
   
   # Shade Smooth.
   
+  # Optimizations.
+  
   # Fix Vectors.
   
   
