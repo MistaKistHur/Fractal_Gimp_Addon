@@ -3,13 +3,36 @@
 
 from gimpfu import *
 
-def fu_fractal_tools(seed, image, drawable, radius, param, threshold, arc, mapi):
+  # image & drawable are predefined gimp args, gimp knows what to do with these parts.
+def fu_fractal_tools(seed, image, drawable, radius, params, threshold, arc, mapi, vec, multi):
 
-  # Set up seed parameters.
+  # Set up seed parameters. --------------------------------------------
   
-  # iteration Algorythm. (Custom).
+  # iteration Algorythm. (Custom). -------------------------------------
   
-  # Params.
+
+  
+  a = 200  # Only Example ifElse to build the Algorythm off.... see if python has switches aswell..
+  b = 33
+  if b > a:
+    print("b is greater than a")
+  elif a == b:
+    print("a and b are equal")
+  else:
+    print("a is greater than b")
+    
+    # my version.. 
+    
+    seed1 = ?
+    seed2 = ?
+       param1 = ?
+       param2 = ?
+    if: 
+    elif:
+    else:
+  
+  
+  # Params. -------------------------------------------------------------
   
   # Tweaks & adjustments.
   
